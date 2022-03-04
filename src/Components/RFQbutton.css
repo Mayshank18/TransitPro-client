@@ -1,0 +1,25 @@
+#card{
+    background-color: white;
+    margin:1rem;
+    height:max-content;
+    border-radius:10px;
+    width: 90%;
+    cursor: pointer;
+}
+.placename{
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.statusRfq{
+    width: 60px;
+    padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.lastDaterfq{
+    font-size: 10px;
+}

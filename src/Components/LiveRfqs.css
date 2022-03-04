@@ -1,0 +1,88 @@
+#liverfq{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 90%;
+    margin: 1rem auto;
+    padding-top: 5rem;
+    height: 150px;
+    padding-right: 10px;
+    padding-top:6px;
+    padding-bottom:8px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#liverfq h4{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 35px;
+}
+.rfqinfo p{
+    font-size: 12px;
+    
+} 
+.rfqinfo{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 15px;
+    border-left:3px solid rgba(0, 0, 0, 0.15);
+}
+.left-column{
+    margin-left: 10px;
+}
+.logoRfq{
+    height:70px;
+    margin:5px;
+}
+.right-column{
+    text-align: right;
+}
+.right-column h6{
+    margin-bottom: 30px;
+}
+
+.status{
+    border: 1px solid #0880A6;
+    border-radius: 7px;
+    padding: 3px;
+    margin: 10px;
+}
+.apply{
+    border: 1px solid #0880A6;
+    border-radius: 7px;
+    padding: 3px;
+    background:rgba(8, 128, 166, 1);
+    color:white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 620px)
+{
+  #liverfq{
+      width:100%;
+  }
+}
+@media screen and (max-width: 540px)
+{
+    #liverfq{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        height:220px;
+    }
+    .rfqinfo p{
+        max-width:fit-content;
+    }
+}
+@media screen and (max-width: 450px)
+{
+    #liverfq{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        height:220px;
+    }
+    .apply{
+        margin: 10px;
+    }
+}

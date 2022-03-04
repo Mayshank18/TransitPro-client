@@ -1,0 +1,227 @@
+.profile-container {
+  background-color: #e5e5e5;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.profile {
+  /* border: 1px solid white; */
+
+  height: 22vh;
+  width: 83%;
+  background-color: #e5e5e5;
+  margin: 3rem auto;
+}
+.column {
+  height: 10vh;
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 90%;
+  margin: 0.5rem auto;
+  height: 25vh;
+  text-align: center;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.column-writ{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:85%;
+}
+#written-sector{
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.column li {
+  text-align: center;
+  width: 100%;
+  font-size:20px;
+  font-weight: bolder;
+  list-style-type: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.state {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.avatar {
+  width: 80%;
+  text-align: center;
+  margin: 0rem auto;
+  margin-top: -2rem;
+  margin-bottom: 0.5rem;
+
+  background-color: #8297ab;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 6px 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#row-profile {
+  display: grid;
+  grid-template-columns: 36% 21% 21% 21%;
+  width: 100%;
+  height: 10rem !important;
+}
+
+.ftl-ptl {
+  background-color: #fff490;
+  width: 40%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+.person-avatar {
+  margin-top: 1rem;
+  
+  font-size: 50px;
+}
+.persoName{
+  margin-top: 12px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.detailTab h2 {
+  font-size: 150%;
+  margin: 1rem;
+  padding: 0.5rem;
+
+  padding-left: 1rem;
+}
+.detail-Tab h2 {
+  font-size: 150%;
+  margin: 1rem;
+  padding: 0.5rem;
+
+  padding-left: 1rem;
+}
+.detail-Tab {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  background-color: white;
+  border-radius: 0.5rem;
+
+  border-bottom: 1px solid #8297ab;
+}
+.detailTab {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-color: white;
+  border-radius: 0.5rem;
+
+  border-bottom: 1px solid #8297ab;
+}
+.icon {
+  text-align: right;
+  margin: 1rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  font-weight: bolder;
+  font-size: 150%;
+  cursor: pointer;
+}
+.icon-edit {
+  text-align: left;
+  margin: 1rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  font-weight: bolder;
+  font-size: 130%;
+  padding-bottom: 1rem;
+}
+.icon-add {
+  text-align: right;
+  margin: 1rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+/* .analytics:hover h2{
+    display: none;
+
+  }
+  .analytics:hover div{
+      display: none;
+  }
+  .analytics:hover::before{
+    content: "Coming Soon!";
+  }
+  .analytics:hover{
+    background-color: #0880A6;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  } */
+
+.detailsList h4 {
+  padding: 1rem;
+  font-size: 120%;
+}
+.detailsListParent {
+  width: 80%;
+  background-color: white;
+  margin: 1rem auto;
+  margin-top: -2rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.detailsList {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 1rem auto;
+  margin-left: 2rem;
+}
+.detailsList span {
+  font-style: italic;
+  color: #8297ab;
+}
+.tab-parent {
+  margin-bottom: 3rem;
+}
+@media screen and (max-width: 990px) {
+  #row-profile {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 10rem !important;
+  }
+  .tab-parent {
+    position: relative;
+    margin-top: 40%;
+  }
+}
+@media screen and (max-width: 810px) {
+  .tab-parent {
+    margin-top: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .tab-parent {
+    margin-top: 60%;
+  }
+}
+@media screen and (max-width: 532px) {
+  .tab-parent {
+    margin-top: 70%;
+  }
+}
+@media screen and (max-width: 453px) {
+  .tab-parent {
+    margin-top: 86%;
+  }
+  .person-avatar {
+    margin-top: 0rem;
+  }
+}

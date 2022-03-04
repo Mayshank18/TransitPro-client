@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    background: white;
+}
+.centerlog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #a6a6a6;
+    box-shadow: 1px 2px 3px #a6a6a6;
+    height: 400px;
+}
+.centerlog h1 {
+    font-size: 38px;
+    width: 100%;
+    text-align: center;
+    color: #284f6f;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid silver;
+    position: absolute;
+    top: 3px;
+    right: auto;
+    left :auto;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.log-form {
+    position: absolute;
+    top:66px;
+    height: 330px;
+    width:100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.text_field1 {
+  position: relative;
+  top:30px;
+  left:20px;
+  width: 90%;
+  height: 30px;
+  line-height: 40px;
+}
+.text_field2 {
+  position: relative;
+  top:70px;
+  left:20px;
+  width: 90%;
+  height: 30px;
+  line-height: 40px;
+}
+label {
+  position: absolute;
+  left:0vw;
+  width: 100%;
+  color: #d3d3d3;
+  transition: 0.2s all;
+  cursor: text;
+}
+input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;  
+    color: #111;
+}
+input:invalid {
+  outline: 0;
+}
+input:focus~label,
+input:valid~label {
+  font-size: 15px;
+  top: -27px;
+  color: #d3d3d3;
+}
+.pass {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+    position: relative;
+    top:109px;
+    left:22px;
+    text-decoration: none;
+}
+input[type="submit"] {
+    width: 90%;
+    height: 50px;
+    border: 1px solid;
+    background: #F2C106;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top:130px;
+    left: 20px;;
+}
+.signup_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    position: relative;
+    top: 118px;
+}
+.signup_link .reset {
+    color: #F2C106;
+    text-decoration: none;
+    padding-left: 5px;
+    position: relative;
+    top: 0px;
+}
+.alert-container {
+    position: absolute;
+    top: -150px;
+    max-width: 1200px;
+    margin-top: 10px;    
+}
+.alert {
+    position: relative;
+    padding: 15px;
+    background-color: #314584;
+    color: white;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.foot{
+    background-color: #284f6f;
+  position: fixed;
+    width: 100%;
+  bottom: 0;
+  
+   z-index: 100 !important;
+
+}
+.foot-p{
+  background-color: #284f6f;
+  color: #fff;
+  text-align: center;
+  padding: 4px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 0% !important;
+}
+

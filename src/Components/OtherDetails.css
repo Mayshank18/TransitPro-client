@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  background: white;
+}
+.userMail {
+  position: relative;
+  text-align: center;
+  top: 12px;
+}
+.LoadingScreen{
+  position: fixed;
+  background: rgba(255,255,255,0.3);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+.loader{
+  height: 150px;
+  position: fixed;
+  height: fit-content;
+  width: fit-content;
+  
+}
+.oth-container {
+  position: relative;
+  top: 600px;
+  left: 50%;
+  margin-bottom: 100px;
+  transform: translate(-50%, -50%);
+  width: 40vw;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #a6a6a6;
+  box-shadow: 1px 2px 3px #a6a6a6;
+  height: 980px;
+  
+}
+#revenue {
+  position: relative;
+}
+.rev-select {
+  background-color: #e5e5e5;
+  width: 90%;
+  margin: 0.5rem 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  padding-right: 1rem;
+}
+.rev-select option {
+  border: none;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: #e5e5e5;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.oth-container h1 {
+  font-size: 38px;
+  width: 100%;
+  text-align: center;
+  color: #284f6f;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid silver;
+  position: absolute;
+  top: 3px;
+  right: auto;
+  left: auto;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+.oth-form {
+  position: absolute;
+  top: 66px;
+  height: max-content;
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.oth-form .text_field1 {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  width: 90%;
+  height: min-content;
+  line-height: 40px;
+  display: grid;
+  grid-template-columns: 25% 70% 5%;
+
+}
+.vehicleHead{
+  margin-bottom: 0px !important;
+  position: relative;
+  top:20px;
+  max-width: fit-content;
+  margin-left: 20px;
+  color:#d3d3d3
+}
+.addField{
+  background-color: #fff;
+  border-style: none;
+  color:#284f6f;
+  cursor: pointer;
+}
+#trucks{
+  background-color: #E5E4E2;
+  border: 1px solid black;
+  width: 93%;
+  padding:0px 10px;
+  margin-bottom:10px ;
+}
+.oth-form .text_field2 {
+  position: relative;
+  top: 70px;
+  left: 20px;
+  width: 90%;
+  height: 30px;
+  line-height: 40px;
+}
+.oth-form .text_field3 {
+  position: relative;
+  top: 160px;
+  left: 20px;
+  width: 90%;
+  height: 30px;
+  line-height: 40px;
+}
+.oth-form .text_field4 {
+  position: relative;
+  top: 190px;
+  left: 20px;
+  width: 90%;
+  height: 30px;
+  line-height: 40px;
+}
+#primary {
+  position: relative;
+}
+.oth-form .text_field5 {
+  position: relative;
+  top: 350px;
+  left: 20px;
+  width: 90%;
+  height: 30px;
+  line-height: 40px;
+}
+#service {
+  position: relative;
+}
+.oth-form label {
+  position: absolute;
+  left: 0vw;
+  width: 100%;
+  color: #d3d3d3;
+  transition: 0.2s all;
+  cursor: text;
+}
+.oth-form input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #d3d3d3;
+  box-shadow: none;
+  color: #111;
+}
+.oth-form input:invalid {
+  outline: 0;
+}
+.oth-form input:focus ~ label,
+.oth-form input:valid ~ label {
+  font-size: 15px;
+  top: -27px;
+  color: #d3d3d3;
+}
+.oth-form #submitbutton {
+  width: 90%;
+  height: 50px;
+  border: 1px solid;
+  background: #f2c106;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  top: 450px;
+  left: 20px;
+}
+.skipNow {
+  position: relative;
+  top: 460px;
+  text-align: center;
+}
+.skipWritten {
+  text-decoration: none;
+  color: #6c757d;
+  font-weight: bolder;
+}
+.skipWritten:hover {
+  color: #f2c106;
+}
+.alert-container {
+  position: absolute;
+  top: -150px;
+  max-width: 1200px;
+  margin-top: 10px;
+}
+.alert {
+  position: relative;
+  padding: 15px;
+  background-color: #314584;
+  color: white;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media screen and (max-width: 985px) {
+  .oth-container {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 656px) {
+  .oth-container {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 483px) {
+  .org-form {
+    top: 104px;
+  }
+  .oth-container {
+    height: 830px;
+  }
+}

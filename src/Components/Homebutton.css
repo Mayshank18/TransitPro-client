@@ -1,0 +1,33 @@
+
+.button-parent button{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: #F2C106;
+    color: white;
+    padding: 10px 60px;
+    font-weight: 600;
+    margin-left: 30px;
+    border-radius: 30px;
+    height: 40px;
+    border: none;
+    box-shadow: 2px 2px 5px #555;
+    transition: background 0.5s;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.button-parent button:hover{
+background-color: white;
+color:#F2C106;
+transition: all 0.2s ease-in-out;
+
+}
+@media screen and (max-width: 600px)
+{
+    .button-parent button{
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
